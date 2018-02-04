@@ -55,6 +55,31 @@ in html
             {
                 border-radius: 40px;
             }
+            table
+            {
+                margin: 0px auto;    
+                text-align: center;
+            }
+            td
+            {
+                padding-right: 10px;
+                font-size: 1.2em;
+                text-align: center;
+            }
+            #table-header
+            {
+                background-color:#351a00;
+                text-align: center;
+            }
+            .table-row
+            {
+                background-color:#753900;
+                text-align: center;
+            }
+            h3
+            {
+                text-align: center;
+            }
             
         
             /*@import url("http://hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css");*/
@@ -75,17 +100,36 @@ in html
               <a href="about.html"> About </a>
               <a href="contact.html"> Contact </a>
         </nav>
-        <main>
-            
-            <figure  id="Pic1Block">
-                <img id="Pic1" src="img/s.png" alt="S's photo" />
-            </figure>
-            
-            <div>
-                
+            <div id="content">
+                <table>
+                    <tr id="table-header">
+                        <td><strong>Programming Language</strong></td>
+                        <td><strong>Years Experience</strong></td>
+                    </tr>
+                    <tr class=table-row>
+                        <td>Java</td>
+                        <td>2</td>
+                    </tr>
+                    <tr class=table-row>
+                        <td>C++</td>
+                        <td>4</td>
+                    </tr>
+                    <tr class=table-row>
+                        <td>Python</td>
+                        <td>3</td>
+                    </tr>
+                    <tr class=table-row>
+                        <td>R</td>
+                        <td>1</td>
+                    </tr>
+                    
+                    <h3>Interests:</h3>
+                    </ul>
+                        <li>Video games: Mostly play video games, semi-pro Overwatch player.</li>
+                    </ul>
+                </table>
             </div>
             
-        </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
