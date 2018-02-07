@@ -13,7 +13,7 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <meta charset="utf-8" />
-        <title> Sean V: Personal Website</title> />
+        <title> HW 1: Some Programming Languages</title> />
         
         <style>
             body 
@@ -33,22 +33,35 @@ in html
             }
             div
             {
+                width:250px;
                 font-size: 1em;
                 color: black;
+            }
+            figure
+            {
+                margin: 100;
+            }
+            figure, div 
+            {
                 padding-left: 100px;
-                /*float: left;*/
-                margin: 0 auto;
-                /*add figure and div to a container to fix positioning*/
+                float: left;
+                /*margin: 0 auto;
+                add figure and div to a container to fix positioning*/
                 text-align: center;
             }
             footer
             {
                 clear: left;
             }
+            #Pic1
+            {
+                border-radius: 20px;
+            }
             
         
             /*@import url("http://hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css");*/
         </style>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     </head>
 <!-- closing head -->
 
@@ -56,19 +69,28 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
         <header>
-            <h1> Sean Vucinich </h1>
-            <h2> Portfolio </h2>
+            <h1> CST336 HW1 </h1>
         </header>
         <nav>
            <hr>
               <a href="index.html"> Home </a>
-              <a href="about.html"> About </a>
-              <a href="contact.html"> Contact </a>
+              <a href="c++.html"> C++ </a>
+              <a href="python.html"> Python </a>
+              <a href="r.html"> R </a>
         </nav>
         <main>
-
-            <div id="contact">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsAnZ59-g2dAXnx53crSUi_FCee6_nLGVRYJTQAAfD7D3W3A/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            
+            <figure  id="Pic1Block">
+                <img id="Pic1" src="img/Python.png" alt="Python icon" />
+            </figure>
+            
+            <div>
+                
+                <p> Python is a high-level programming language used primarily for general-purpose programming.</p>
+                <p> Python's design philosophy emphasizes code readability and syntax that promotes the expression of concepts in fewer lines of code using significant whitespace. </p>
+                
+                <p>Source: </p>
+                <a>https://en.wikipedia.org/wiki/Python_(programming_language)</a>
             </div>
             
         </main>
@@ -79,6 +101,7 @@ in html
                 CST336 Internet Programming. 2018 &copy; Sean <br />
                 <strong> Disclaimer:</strong>
                 The information in this website is fictitous. It's used for academic purposes.
+                <img id="Logo" src="../../img/logo.png" alt="CSUMB Logo" width = 120px/>
             
         </footer>
         <!-- closing footer -->

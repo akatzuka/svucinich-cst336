@@ -13,7 +13,7 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <meta charset="utf-8" />
-        <title> About</title> />
+        <title> HW 1: Some Programming Languages</title> />
         
         <style>
             body 
@@ -45,6 +45,8 @@ in html
             {
                 padding-left: 100px;
                 float: left;
+                /*margin: 0 auto;
+                add figure and div to a container to fix positioning*/
                 text-align: center;
             }
             footer
@@ -53,37 +55,13 @@ in html
             }
             #Pic1
             {
-                border-radius: 40px;
-            }
-            table
-            {
-                margin: 0px auto;    
-                text-align: center;
-            }
-            td
-            {
-                padding-right: 10px;
-                font-size: 1.2em;
-                text-align: center;
-            }
-            #table-header
-            {
-                background-color:#351a00;
-                text-align: center;
-            }
-            .table-row
-            {
-                background-color:#753900;
-                text-align: center;
-            }
-            h3
-            {
-                text-align: center;
+                border-radius: 20px;
             }
             
         
             /*@import url("http://hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css");*/
         </style>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     </head>
 <!-- closing head -->
 
@@ -91,45 +69,31 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
         <header>
-            <h1> Sean Vucinich </h1>
-            <h2> Portfolio </h2>
+            <h1> CST336 HW1 </h1>
         </header>
         <nav>
            <hr>
               <a href="index.html"> Home </a>
-              <a href="about.html"> About </a>
-              <a href="contact.html"> Contact </a>
+              <a href="c++.html"> C++ </a>
+              <a href="python.html"> Python </a>
+              <a href="r.html"> R </a>
         </nav>
-            <div id="content">
-                <table>
-                    <tr id="table-header">
-                        <td><strong>Programming Language</strong></td>
-                        <td><strong>Years Experience</strong></td>
-                    </tr>
-                    <tr class=table-row>
-                        <td>Java</td>
-                        <td>2</td>
-                    </tr>
-                    <tr class=table-row>
-                        <td>C++</td>
-                        <td>4</td>
-                    </tr>
-                    <tr class=table-row>
-                        <td>Python</td>
-                        <td>3</td>
-                    </tr>
-                    <tr class=table-row>
-                        <td>R</td>
-                        <td>1</td>
-                    </tr>
-                    
-                    <h3>Interests:</h3>
-                    </ul>
-                        <li>Video games: Mostly play video games, semi-pro Overwatch player.</li>
-                    </ul>
-                </table>
+        <main>
+            
+            <figure  id="Pic1Block">
+                <img id="Pic1" src="img/R.png" alt="R logo image" />
+            </figure>
+            
+            <div>
+                
+                <p> R is a statistical and highly functional programming language used primarily for statistical computing and graphics. </p>
+                <p> The R language is widely used among statisticians and data miners for developing statistical software and data analysis.</p>
+                
+                <p>Source: </p>
+                <a>https://en.wikipedia.org/wiki/R_programming</a>
             </div>
             
+        </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
@@ -137,6 +101,7 @@ in html
                 CST336 Internet Programming. 2018 &copy; Sean <br />
                 <strong> Disclaimer:</strong>
                 The information in this website is fictitous. It's used for academic purposes.
+                <img id="Logo" src="../../img/logo.png" alt="CSUMB Logo" width = 120px/>
             
         </footer>
         <!-- closing footer -->
