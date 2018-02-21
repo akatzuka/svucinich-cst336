@@ -1,0 +1,79 @@
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+    .color-2 { color: #1e1e1e }
+
+    img {
+        border-radius:20px;
+    }
+    
+    body {
+        background-color: black;
+        background-image:url("../img/top.jpg");
+        color: white;
+        
+    }
+    
+    #main {
+        font-family: 'Baloo Bhaina', cursive;
+        width:600px;
+        height:500px;
+        position:relative;
+        margin:0 auto;
+    }
+    
+    #player1, #player2 
+    {
+        display: inline-block;
+        border: 4px solid gold;
+        border-radius: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        position: relative;
+    }
+    
+    #player1:before, #player2:before 
+    {
+        border: 3px solid #cccccc;
+        border-radius: 24px;
+        display: inline-block;
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        z-index: -1;
+    }
+    
+    input{
+        top:75px;
+        left:530px;
+        position:absolute;
+        font-size:1.3em;
+        background-color: Transparent;
+        border:none;
+        outline:none; /*hides button outline when clicking on it*/
+        font-weight:bold;
+        color:yellow;
+        cursor:pointer;
+    }
+    
+    #output{
+     width:600px;   
+     margin:0 auto;
+     position:absolute;
+     text-align:center;
+     top:600px;
+     font-size:1.5em;
+     line-height: .7em;
+    }
+    
+    footer{
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        width:600px;
+        margin:0 auto;
+        padding-top:10px;
+    }
