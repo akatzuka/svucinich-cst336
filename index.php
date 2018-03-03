@@ -7,7 +7,10 @@
             <a href="./Labs/Lab_2/index.php">Lab 2 </a>
         </li>
         <li>
-            <a href="./Labs/Lab_2/index.php">Lab 4 </a>
+            <a href="./Labs/Lab_3/index.php">Lab 3 </a>
+        </li>
+        <li>
+            <a href="./Labs/Lab_4/index.php">Lab 4 </a>
         </li>
         <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
