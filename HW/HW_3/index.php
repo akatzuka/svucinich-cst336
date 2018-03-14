@@ -129,7 +129,7 @@
             }
         ?>
         
-        <hr class="F_Color"/>
+        <hr class="fColor"/>
         <footer>
             <br/><br/><br/>
             <img id="Logo" src="../img/logo.png" alt="CSUMB Logo"/>
