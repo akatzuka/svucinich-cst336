@@ -13,7 +13,13 @@
             <a href="./Labs/Lab_4/index.php">Lab 4 </a>
         </li>
         <li>
+            <a href="./Labs/Lab_5/index.php">Lab 5 </a>
+        </li>    
+        <li>
             <a href="./Labs/Lab_6/index.php">Lab 6 </a>
+        </li>
+        <li>
+            <a href="./Labs/Lab_7/index.php">Lab 7 </a>
         </li>
         <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
