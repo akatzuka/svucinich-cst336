@@ -40,7 +40,13 @@
             <a href="./Challenges/C_3/index.php">Challenge 3 </a>
         </li>
         <li>
-            <a href="./Challenges/C_4/index.php">Challenge 4 </a>
+            <a href="./Challenges/C_4/Reports.php">Challenge 4 </a>
+        </li>
+        <li>
+            <a href="./Challenges/C_5/index.php">Challenge 5 </a>
+        </li>
+        <li>
+            <a href="./project/index.php">Project </a>
         </li> 
     </ul>
 </body>
