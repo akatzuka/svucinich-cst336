@@ -1,0 +1,29 @@
+#won, #lost
+{
+    display: none;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#word, #letters
+{
+    padding: 20px 2px;
+}
+
+#man
+{
+    margin: 20px auto;
+    width: 650px;
+    height: 650px;
+}
+
+.hint
+{
+    font-size: 0.8em;
+}
+
+.btn
+{
+    padding: 5px 5px;
+    margin: 1px 1px;
+}
