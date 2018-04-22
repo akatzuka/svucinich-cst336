@@ -22,6 +22,9 @@
             <a href="./Labs/Lab_7/index.php">Lab 7 </a>
         </li>
         <li>
+            <a href="./Labs/Lab_8/index.html">Lab 8 </a>
+        </li>
+        <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
         </li>    
         <li>
