@@ -25,6 +25,9 @@
             <a href="./Labs/Lab_8/index.html">Lab 8 </a>
         </li>
         <li>
+            <a href="./Labs/Lab_9/singup-1.html">Lab 9 </a>
+        </li>
+        <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
         </li>    
         <li>
@@ -32,6 +35,9 @@
         </li>
         <li>
             <a href="./HW/HW_3/index.php">HW 3 </a>
+        </li>
+        <li>
+            <a href="./HW/HW_4/index.php">HW 4 </a>
         </li>
         <li>
             <a href="./Challenges/C_1/season.html">Challenge 1 </a>
