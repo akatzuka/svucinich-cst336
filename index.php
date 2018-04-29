@@ -25,7 +25,7 @@
             <a href="./Labs/Lab_8/index.html">Lab 8 </a>
         </li>
         <li>
-            <a href="./Labs/Lab_9/singup.html">Lab 9 </a>
+            <a href="./Labs/Lab_9/signup.html">Lab 9 </a>
         </li>
         <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
