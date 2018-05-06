@@ -28,6 +28,9 @@
             <a href="./Labs/Lab_9/signup.html">Lab 9 </a>
         </li>
         <li>
+            <a href="./Labs/Lab_10/index.php">Lab 10 </a>
+        </li>
+        <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
         </li>    
         <li>
@@ -53,6 +56,9 @@
         </li>
         <li>
             <a href="./Challenges/C_5/index.php">Challenge 5 </a>
+        </li>
+        <li>
+            <a href="./Challenges/C_6/index.php">Challenge 6 </a>
         </li>
         <li>
             <a href="./project/index.php">Project </a>
