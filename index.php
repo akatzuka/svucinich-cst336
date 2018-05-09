@@ -1,5 +1,7 @@
 <body>
     <ul>
+        <h1> Labs </h1>
+        </br>
         <li>
             <a href="./Labs/Lab_1/index.html">Lab 1 </a>
         </li>
@@ -30,6 +32,9 @@
         <li>
             <a href="./Labs/Lab_10/index.php">Lab 10 </a>
         </li>
+        </br>
+        <h1> Homework </h1>
+        </br>
         <li>
             <a href="./HW/HW_1/index.html">HW 1 </a>
         </li>    
@@ -42,6 +47,9 @@
         <li>
             <a href="./HW/HW_4/index.php">HW 4 </a>
         </li>
+        </br>
+        <h1> Challenges </h1>
+        </br>
         <li>
             <a href="./Challenges/C_1/season.html">Challenge 1 </a>
         </li>    
@@ -60,8 +68,14 @@
         <li>
             <a href="./Challenges/C_6/index.php">Challenge 6 </a>
         </li>
+        </br>
+        <h1> Projects </h1>
+        </br>
         <li>
             <a href="./project/index.php">Project </a>
+        </li> 
+        <li>
+            <a href="./Final_Project/index.php"> Final Project </a>
         </li> 
     </ul>
 </body>
